@@ -33,6 +33,6 @@ Therefore, the time taken in total to distribute a file of size _S_ to _N_ peers
 <img src="https://latex.codecogs.com/gif.latex?max\{\frac{S}{up_{s}},&space;\frac{S}{dwn_{min}},&space;\frac{NS}{up_{sum}}\}" title="max\{\frac{S}{up_{s}}, \frac{S}{dwn_{min}}, \frac{NS}{up_{sum}}\}" />
 
 Note that as the number of clients/peers, _N_, grows, the time taken by the client-server architecture also grows. Here is a graph of how the distribution time grows for each architecture as the number of clients/peers grow:
-![Graph of How p2p Scales vs Client-Server attributed to:https://pdfs.semanticscholar.org/3de3/1a9b45a3d071c638574117af8e046b578004.pdf](3.png)
+![Graph of How p2p Scales vs Client-Server attributed to:https://pdfs.semanticscholar.org/3de3/1a9b45a3d071c638574117af8e046b578004.pdf](1.png)
 
 **P2P networks are extremely mathematically scalable.** The resources of a P2P system grows with the number of peers in the system. Thus, applications with P2P architecture are self-scaling.
