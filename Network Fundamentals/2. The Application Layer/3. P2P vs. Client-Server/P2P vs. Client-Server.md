@@ -11,3 +11,5 @@ Let’s calculate how long it will take to transmit a file from one server to a 
 # Client-Server
 
 Let’s start with the client-server architecture. The following can be observed.
+
+- Since _N_ clients each want a file of size _S_, the server will have to upload _NS_ bits. The upload rate of the server is _up<sub>​s</sub>_ so the server will take at least $$\frac{NS}{up_{s}}$$
