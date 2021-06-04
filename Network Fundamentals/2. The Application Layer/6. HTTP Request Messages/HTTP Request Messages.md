@@ -76,9 +76,9 @@ However, sending forms with a POST request is generally better because:
 2. The form’s fields are not shown in the URL.
 
 > **Note: URIs & URLs**
-
+>
 > - **Uniform Resource Locators (URLs)** URLs are used to identify an object over the web. RFC 2396. A URL has the following format: <mark>protocol://hostname:port/path-and-file-name</mark>
-
+>
 > - **Uniform Resource Identifiers (URIs)** can be more specific than URLs in such a way that they can locate fragments within objects too RFC 3986. A URI has the following format: <mark>http://host:port/path?request-parameters#nameAnchor</mark>. For instance, <mark>https://www.educative.io/collection/page/10370001/6105520698032128/6460983855808512/#http-methods</mark> is a URI.
 
 ## URL
