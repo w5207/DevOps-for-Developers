@@ -8,8 +8,8 @@ Let’s learn about all of its components.
 
 - <code>curl</code> is the name of the command that tells the terminal that this is a curl command.
 
-- The --head flag or -I in short, tells cURL to send an HTTP request with the head method. In other words, the entity-body of the HTTP message is not fetched.
+- The <code>--head</code> flag or <code>-I</code> in short, tells cURL to send an HTTP request with the <code>head</code> method. In other words, the entity-body of the HTTP message is not fetched.
 
-- The -silent flag tells cURL to not display the progress meter. The progress meter is interpreted as an error on our platform, which is why we decided to remove it. The command is perfectly fine without this flag otherwise.
+- The <code>-silent</code> flag tells cURL to not display the progress meter. The progress meter is interpreted as an error on our platform, which is why we decided to remove it. The command is perfectly fine without this flag otherwise.
 
 We encourage you to explore the cURL command. You can find a list of all the flags under the ‘options’ heading on cURL’s [manpage](https://curl.haxx.se/docs/manpage.html). Try different websites and different flags and see what you get!

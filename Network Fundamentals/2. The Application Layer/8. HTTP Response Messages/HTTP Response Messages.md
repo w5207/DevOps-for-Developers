@@ -41,7 +41,7 @@ It has 3 parts: an initial **status line,** some **header lines** and an **entit
 
 Here is a list of some common status codes and their meanings:
 
-- 200 OK: the request was successful, and the result is appended with the response message.
+- **<code>200 OK</code>**: the request was successful, and the result is appended with the response message.
 
 - 404 File Not Found: the requested object doesn’t exist on the server.
 
