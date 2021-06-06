@@ -43,13 +43,13 @@ Here is a list of some common status codes and their meanings:
 
 - **<code>200 OK</code>**: the request was successful, and the result is appended with the response message.
 
-- 404 File Not Found: the requested object doesn’t exist on the server.
+- **<code>404 File Not Found</code>**: the requested object doesn’t exist on the server.
 
-- 400 Bad Request: generic error code that indicates that the request was in a format that the server could not comprehend.
+- **<code>400 Bad Request</code>**: generic error code that indicates that the request was in a format that the server could not comprehend.
 
-- 500 HTTP Internal Server Error: the request could not be completed because the server encountered some unexpected error.
+- **<code>500 HTTP Internal Server Error</code>**: the request could not be completed because the server encountered some unexpected error.
 
-- 505 HTTP Version Not Supported: the requested HTTP version is not supported by the server.
+- **<code>505 HTTP Version Not Supported</code>**: the requested HTTP version is not supported by the server.
 
 Have a look at pages 39 and 40 of [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt) for a comprehensive list:
 

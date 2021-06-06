@@ -13,3 +13,22 @@ Let’s learn about all of its components.
 - The <code>-silent</code> flag tells cURL to not display the progress meter. The progress meter is interpreted as an error on our platform, which is why we decided to remove it. The command is perfectly fine without this flag otherwise.
 
 We encourage you to explore the cURL command. You can find a list of all the flags under the ‘options’ heading on cURL’s [manpage](https://curl.haxx.se/docs/manpage.html). Try different websites and different flags and see what you get!
+
+# Sample Output
+
+The output of this command is an HTTP response such as the following. Notice the HTTP response code and the headers.
+
+```
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+Accept-Ranges: bytes
+Cache-Control: max-age=604800
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 23 Sep 2019 06:48:39 GMT
+Etag: "1541025663"
+Expires: Mon, 30 Sep 2019 06:48:39 GMT
+Last-Modified: Fri, 09 Aug 2013 23:54:35 GMT
+Server: ECS (ord/5726)
+X-Cache: HIT
+Content-Length: 606
+```
